@@ -1,4 +1,4 @@
-@media (max-width: 834px) {
+@media (max-width: 800px) {
     header nav ul li {
         display: none;
     }
@@ -13,11 +13,13 @@
 
     #section_2 {
         align-items: center;
+        max-width: 100%;
         margin: 0 15px;
     }
 
     #card_div {
         row-gap: 20px;
+        justify-content: center;
     }
 
     #section_2 article {
@@ -28,5 +30,7 @@
         flex-wrap: wrap;
     }
 
-
+    #card_div article {
+        max-width: 100%;
+    }
 }
