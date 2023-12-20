@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+    #section_1 h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    #section_1 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

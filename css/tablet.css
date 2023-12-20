@@ -1,0 +1,32 @@
+@media (max-width: 834px) {
+    header nav ul li {
+        display: none;
+    }
+
+    #burger {
+        display: inline;
+    }
+
+    #section_1 {
+        height: 438px;
+    }
+
+    #section_2 {
+        align-items: center;
+        margin: 0 15px;
+    }
+
+    #card_div {
+        row-gap: 20px;
+    }
+
+    #section_2 article {
+        align-items: center;
+    }
+
+    #card_div {
+        flex-wrap: wrap;
+    }
+
+
+}
