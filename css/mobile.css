@@ -1,4 +1,10 @@
 @media (max-width: 480px) {
+    #sub_main {
+        row-gap: 48px;
+    }
+
+    /* section 1 */
+
     #section_1 h2 {
         font-size: 32px;
         line-height: 40px;
@@ -7,5 +13,17 @@
     #section_1 p {
         font-size: 14px;
         line-height: 22px;
+    }
+
+    /* section 3 */
+
+    #small_image_div {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    #small_image_1,
+    #small_image_2 {
+        width: 100%;
     }
 }

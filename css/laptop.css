@@ -5,28 +5,29 @@
     #card_div article:last-child {
         display: none;
     }
+
     #card_div article {
         max-width: 50%;
     }
 
     /* section 3 */
 
-    #section_3 div{
+    #images_div {
         flex-direction: column;
     }
 
-    #img_big{
+    #img_big {
         width: 100%;
     }
 
-    #small_image_div{
+    #small_image_div {
         flex-direction: row;
-        flex-wrap: nowrap;
         width: 100%;
         height: 200px;
     }
 
-    #small_image_1, #small_image_2{
+    #small_image_1,
+    #small_image_2 {
         width: 50%;
     }
 }

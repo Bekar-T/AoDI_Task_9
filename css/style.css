@@ -126,7 +126,7 @@ h3 {
 
 /* section 3 */
 
-#section_3{
+#section_3 {
     display: flex;
     flex-direction: column;
     row-gap: 34px;
@@ -134,38 +134,49 @@ h3 {
     column-gap: 20px;
 }
 
-#section_3 div{
+#images_div {
     display: flex;
+    width: 100%;
     column-gap: 20px;
     row-gap: 20px;
 }
 
-#img_big{
+#img_big {
     background-image: url("../images/Rectangle_25.png");
     background-position: center;
+    background-size: cover;
     width: 66%;
     height: 400px;
 }
 
-#small_image_div{
+#small_image_div {
     display: flex;
     flex-direction: column;
     width: 33%;
     height: 400px;
     row-gap: 20px;
+    column-gap: 20px;
 }
 
-#small_image_1{
+#small_image_1 {
     background-image: url("../images/Rectangle_15.png");
+    width: 100%;
+    height: 190px;
+    background-position: center;
+    background-size: cover;
 }
 
-#small_image_2{
+#small_image_2 {
     background-image: url("../images/Rectangle_17.png");
+    width: 100%;
+    height: 190px;
+    background-position: center;
+    background-size: cover;
 }
 
 /* footer */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
